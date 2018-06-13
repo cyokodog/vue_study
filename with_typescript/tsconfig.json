@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowJs": true,
+
+    // tslint:no-unused-variable
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "module": "es2015",
+    "target": "es5",
+    "sourceMap": true,
+
+    // import Vue from 'vue'をするため
+    "allowSyntheticDefaultImports": true,
+
+    // モジュールの解決方法を変更するため
+    "moduleResolution": "node",
+
+    // Thisを推論させるため
+    "noImplicitThis": true
+  },
+  "include": [
+    "./frontend/src/**/*.ts",
+    "./frontend/types/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
