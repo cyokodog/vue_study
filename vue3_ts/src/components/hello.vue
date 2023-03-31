@@ -1,6 +1,19 @@
 <template>
   <div class="hello">
 
+    <p v-if="errorMsg">{{errorMsg}}</p>
+
+    <Suspense>
+      <template #default>
+        <Bar/>
+      </template>
+      <template #fallback>
+        Loading Bar...
+      </template>
+    </Suspense>
+
+    <Foo :fooData="settings.fooData"/>
+
     <h1>{{ msg }}</h1>
     <p>
       <input

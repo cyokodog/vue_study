@@ -1,0 +1,15 @@
+{
+  "name": "vue3_npm_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "cyokodog <cyokodog@gmail.com> (https://www.cyokodog.net/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli": "^4.5.8"
+  }
+}
